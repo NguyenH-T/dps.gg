@@ -1,0 +1,13 @@
+/* Add any styling for the Buffs component here */
+.debuffs-container {
+    display: flex;
+    flex-direction: column; /* Adjust the direction based on your layout */
+    /* Add other styling properties as needed */
+    border: 1px solid #000; /* Add the border style here */
+    padding: 10px; /* Add padding for better appearance */
+    /* Add other styling properties as needed */
+  }
+  
+  .debuffs-container > * {
+    margin-bottom: 10px; /* Add spacing between switches */
+  }

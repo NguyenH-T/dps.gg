@@ -1,0 +1,47 @@
+.container {
+    display: block;
+    margin: 0 0 0;
+}
+
+.NavBar{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    padding-left: 0px;
+    margin: 0px 0px;
+    height: 50px;
+    background-color: var(--shade3-color);
+    border-bottom: 0px solid var(--font-color);
+    opacity: 1;
+}
+
+.HomeTitleNav {
+    display: flex;
+    margin: 1.2% 1% 0%;
+}
+
+.NavButton {
+    display: flex;
+}
+
+.NavButton a {
+    color: var(--font-color);
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 25px;
+}
+
+.NavButtonLogo {
+    display: flex;
+    padding: 12px 20px 30px 20px;
+}
+
+.NavButtonLogo a {
+    color: var(--font-color);
+    text-align: center;
+    text-decoration: none;
+}
+
+.NavButton a:hover {
+    border-bottom: 1px solid var(--font-color);
+}

@@ -1,0 +1,70 @@
+/*
+947 fills the webpage
+*/
+
+.TileImage{
+    pointer-events: none;
+    width: 90%;
+    height: 90%;
+    padding-top: 3px;
+    padding-left: 3px;
+    align-items: center;
+}
+
+.CanvasBorder{
+    --height: 94vh;
+    --width: 85.4%;
+    border-style: solid;
+    border: solid 0px white;
+    width: var(--width);
+    height: var(--height);
+    background-color: #242629;
+    overflow: hidden;
+    max-width: var(--width);
+    max-height: var(--height);
+    z-index: 2;
+}
+
+
+.Canvas {
+    position: relative;
+    border: 0 solid white;
+    background-color: var(--shade2-color);
+    width: 4000px;
+    height: 2400px;
+    scale: 0.8;
+}
+
+.ButtonContainer {
+    display: flex;
+    position: sticky;
+    justify-content: space-between;
+    left: 95%;
+    bottom: 1.5%;
+    width: 4%;
+}
+
+.ButtonZoom {
+    display: inline-block;
+    color: var(--font-color);
+    background-color: var(--main-color);
+    border: 0 solid white;
+    padding: 0px 0px;
+    width: 25px;
+    height: 25px
+}
+
+.ButtonZoom:hover {
+    transition: all 250ms ease-in-out;
+    background-color: var(--highlight-color);
+}
+
+.Sim{
+    position: static;
+    max-width: 100%;
+    margin: 0 0;
+    padding: 0 0;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}

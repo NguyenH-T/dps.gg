@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: 'nunito', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+element {
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  overflow-y: scroll;
+}
+element::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+:root {
+  --main-color: #444646;
+  --main-comp-color: #5a5d5d;
+  --highlight-color: #5c5d5d;
+  --highlight-comp-color: #6d6e6e;
+  --shade-color: #383b3b;
+  --shade2-color: #2c2f2f;
+  --shade3-color: #202424;
+  --shade-comp-color: #3d4344;
+  --shade2-comp-color: #343a3b;
+  --font-color: #e6e6e6;
+  --highlight-font-color: #f5f5f5;
+  
+}
+
+.nunito {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-mono {
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}

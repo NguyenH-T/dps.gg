@@ -1,0 +1,9 @@
+services:
+  backend:
+    build: ./.
+    ports:
+    - "5000:5000"
+  frontend:
+    build: "./simgui/."
+    ports:
+    - "3000:3000"
